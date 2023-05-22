@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "AddStaff";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    <label>personel adı</label>
+    <input type="text" name="Name" class="form-control"/>
+    <br />
+
+    <label>Ünvan</label>
+    <input type="text" name="Title" class="form-control"/>
+    <br />
+
+    <label>Sosyal medya1</label>
+    <input type="text" name="SocialMedia1" class="form-control"/>
+    <br />
+
+    <label>Sosyal Medya2 </label>
+    <input type="text" name="SocialMedia2" class="form-control" />
+    <br />
+
+    <label>Sosyal Medya3</label>
+    <input type="text" name="SocialMedia3" class="form-control" />
+    <br />
+
+    <button type="submit" class="btn btn-primary">personel ekle</button>
+</form>

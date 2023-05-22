@@ -1,0 +1,33 @@
+﻿@using HotelProject.WebUI.Dtos.ServiceDto;
+@model List<ResultServiceDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+
+<table class="table table-bordered">
+    <tr>
+        <th>Resim</th>
+        <th>Başlık</th>
+        <th>Açıklama</th>
+        <th>Düzenle</th>
+        <th>Sil</th>
+
+    </tr>
+    <tbody>
+        @foreach (var i in Model)
+        {
+
+            <tr>
+                <td>@i.Title</td>
+                <td>@i.Title</td>
+                <td>@i.ServiceIcon</td>
+
+                <td><a href="/Staff/UpdateStaff/@i.ServiceId" class="btn btn-info">Düzenle</a></td>
+                <td><a href="/Staff/DeleteStaff/@i.ServiceId" class="btn btn-danger">Sil</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Staff/AddStaff" class="btn mb-1 btn-rounded btn-outline-info">Yeni Personel Ekle</a>

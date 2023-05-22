@@ -1,0 +1,52 @@
+﻿@using HotelProject.WebUI.Dtos.BookingDto;
+@model List<BookingResultDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/AdminLayout/_AdminLayout.cshtml";
+}
+
+<table class="table table-bordered">
+    <tr>
+        <th>Adı</th>
+        <th>Mail</th>
+        <th>Checkin</th>
+        <th>Checkout</th>
+        <th>Kişi</th>
+        <th>Çoçuk</th>
+        <th>Durumu</th>
+        <th>Düzenle</th>
+        <th>Onay</th>
+        <th>Onay</th>
+
+
+
+    </tr>
+    <tbody>
+        @foreach (var i in Model)
+        {
+
+            <tr>
+                <td>@i.Name</td>
+                <td>@i.Mail</td>
+                <td>@i.Checkin</td>
+                <td>@i.CheckOut</td>
+                <td>@i.AdultCount</td>
+                <td>@i.ChildrenCount</td>
+                @if (@i.Status == 1)
+                {
+                    <td><span class="badge badge-success">Aktif</span></td>
+                }
+                else
+                {
+                    <td><span class="badge badge-warning">Pasif</span></td>
+                }
+                <td><a href="/AdminBooking/UpdateBooking/@i.BookingId" class="btn btn-info">Düzenle</a></td>
+                <td><a href="/AdminBooking/DeleteBooking/@i.BookingId" class="btn btn-danger">Sil</a></td>
+                <td><a class="btn btn-outline-primary" href="/Admin/AdminBooking/DoActiveBooking/@i.BookingId">Aktif Yap</a></td>
+                <td><a class="btn btn-outline-primary" href="/Admin/AdminBooking/DoPasiveBooking/@i.BookingId">Pasif Yap</a></td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a href="/Admin/AdminBooking/AddBooking" class="btn mb-1 btn-rounded btn-outline-info">Yeni Rezervasyon Ekle</a>
+

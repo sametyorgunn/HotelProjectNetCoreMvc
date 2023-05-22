@@ -1,0 +1,71 @@
+﻿<div class="col-lg-6">
+    <div class="wow fadeInUp" data-wow-delay="0.2s">
+        <form method="post" action="/Booking/CreateBooking">
+            <div class="row g-3">
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="text" class="form-control" name="Name" id="name" placeholder="isminizi giriniz">
+                        <label for="name">isim</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <input type="email" class="form-control" name="Mail" id="email" placeholder="Mailinizi Girin">
+                        <label for="email">Mail</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating date" id="date3" data-target-input="nearest">
+                        <input type="text" name="Checkin" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
+                        <label for="checkin">Giriş Tarihi</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating date" id="date4" data-target-input="nearest">
+                        <input type="text" name="Checkout" class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" />
+                        <label for="checkout">Çıkış Tarihi</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select class="form-select" name="AdultCount" id="select1">
+                            <option value="1">Yetişkin 1</option>
+                            <option value="2">Yetişkin 2</option>
+                            <option value="3">Yetişkin 3</option>
+                        </select>
+                        <label for="select1">Kişi sayısı</label>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-floating">
+                        <select class="form-select" name="ChildrenCount" id="select2">
+                            <option value="1">Çocuk 1</option>
+                            <option value="2">Çocuk 2</option>
+                            <option value="3">Çocuk 3</option>
+                        </select>
+                        <label for="select2">Çocuk</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <select class="form-select" name="RoomCount" id="select3">
+                            <option value="1">Oda 1</option>
+                            <option value="2">Oda 2</option>
+                            <option value="3">Oda 3</option>
+                        </select>
+                        <label for="select3">Oda sayısı</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-floating">
+                        <textarea class="form-control" name="SpecialRequest" placeholder="Özel İsteğiniz" id="message" style="height: 100px"></textarea>
+                        <label for="message">Özel Talepleriniz</label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary w-100 py-3" type="submit">Rezervasyon Yap</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

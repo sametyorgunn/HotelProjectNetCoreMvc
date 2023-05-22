@@ -1,0 +1,31 @@
+﻿@using RapidApiConsume.Models
+@model List<HotelGetListViewModel.Result>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">adi</th>
+      <th scope="col">adres</th>
+      <th scope="col">puan</th>
+    </tr>
+  </thead>
+  <tbody>
+        @foreach(var i in Model)
+        {
+         <tr>
+          <th scope="row">1</th>
+          <td>@i.address</td>
+          <td>@i.city</td>
+          <td></td>
+         </tr>
+        }
+        
+ 
+  </tbody>
+</table>

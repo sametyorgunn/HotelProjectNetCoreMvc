@@ -1,0 +1,19 @@
+﻿@model List<HotelSearchIdViewModel>
+@{
+    ViewData["Title"] = "SearchLocationId";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>SearchLocationId</h1>
+
+
+<form method="post">
+    <input class="form-control" action="/Hotel/SearchLocationId" type="text" name="CityName" />
+    <button type="submit">id bul</button>
+</form>
+@foreach(var i in Model)
+{
+    <label class="form-control">@i.dest_id</label>
+}
+
+<a href="/Hotel/SearchHotelById" class="btn btn-primary">Rezervasyon Sayfası</a>
