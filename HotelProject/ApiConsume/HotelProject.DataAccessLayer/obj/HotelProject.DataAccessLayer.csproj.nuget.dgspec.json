@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {}
+    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {
+    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
         "projectName": "HotelProject.DataAccessLayer",
-        "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
+        "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj",
         "packagesPath": "C:\\Users\\asame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\obj\\",
+        "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asame\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj"
+              "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj"
               }
             }
           }
@@ -93,14 +93,14 @@
         }
       }
     },
-    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
+    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
         "projectName": "HotelProject.EntityLayer",
-        "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
+        "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
         "packagesPath": "C:\\Users\\asame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\obj\\",
+        "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asame\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6yoEMHAVqOKjc2FjAm2hDRd3jVhkI2/p4mwW+KyFOXQ0T4PZzJ42U1acNPquciBM4YLdq2Y/g51MYTOFingxpg==",
+  "dgSpecHash": "3HEbLzvUalLvgQIyYzNVO/i0zsEYBb49uwKEc9j8W5ClaRx1OazI5AoiQuFSx9Q4xWnGt6ygLHKhRcEt+fE+QQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj",
+  "projectFilePath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asame\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\asame\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

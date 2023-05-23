@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "77ZzZ+CarUiAs/3VWoOhod0qv5b+rccL5mdFWb2zKMUOr9fGGzyFsPkGhKvgVya8Q2Q/iLBUQMM3pjmh5DZD2Q==",
+  "dgSpecHash": "m64fan5lJLmMjTjfR7omK+5Fo4GqXFpn+2mcUGRPznE0vhIQby5Knd4pVaIVNB41OHECf9arKSv77zDRZtqiSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\Jwt\\JwtWebApi\\JwtWebApi.csproj",
+  "projectFilePath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\Jwt\\JwtWebApi\\JwtWebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asame\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.17\\microsoft.aspnetcore.authentication.jwtbearer.5.0.17.nupkg.sha512",
     "C:\\Users\\asame\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

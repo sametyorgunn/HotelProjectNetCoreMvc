@@ -6967,11 +6967,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
+      "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
       "projectName": "HotelProject.EntityLayer",
-      "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
+      "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj",
       "packagesPath": "C:\\Users\\asame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\obj\\",
+      "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asame\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -606,11 +606,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\Jwt\\JwtWebApi\\JwtWebApi.csproj",
+      "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\Jwt\\JwtWebApi\\JwtWebApi.csproj",
       "projectName": "JwtWebApi",
-      "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\Jwt\\JwtWebApi\\JwtWebApi.csproj",
+      "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\Jwt\\JwtWebApi\\JwtWebApi.csproj",
       "packagesPath": "C:\\Users\\asame\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\Jwt\\JwtWebApi\\obj\\",
+      "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\Jwt\\JwtWebApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\asame\\AppData\\Roaming\\NuGet\\NuGet.Config",

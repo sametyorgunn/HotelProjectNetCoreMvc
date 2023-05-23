@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj": {}
+    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj": {}
   },
   "projects": {
-    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj": {
+    "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj",
+        "projectUniqueName": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj",
         "projectName": "RapidApiConsume",
-        "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj",
+        "projectPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\RapidApi\\RapidApiConsume\\RapidApiConsume.csproj",
         "packagesPath": "C:\\Users\\asame\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\RapidApi\\RapidApiConsume\\obj\\",
+        "outputPath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\RapidApi\\RapidApiConsume\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\asame\\AppData\\Roaming\\NuGet\\NuGet.Config",

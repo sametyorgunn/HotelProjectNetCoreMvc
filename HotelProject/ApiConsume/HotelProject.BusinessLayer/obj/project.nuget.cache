@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "USfnOryWe1Br/UUSPXECQC0h3ppT0ph7FKoJqWrqKLSsCbQnmXAmsXdLwtFyh3Ae9PWu+kWLcuwbyxT9Q1lf8A==",
+  "dgSpecHash": "fimzNH3ErCcje807nkq6ynhxIgVqfD+CO4Swnmrv3iDrWCtGQoPtUx0+tmWju0fKdBXygPnHNi0SooNoY2kZVg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
+  "projectFilePath": "C:\\Users\\asame\\Desktop\\.NetProjeler\\HotelProjectNetCoreMvc\\HotelProject\\ApiConsume\\HotelProject.BusinessLayer\\HotelProject.BusinessLayer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\asame\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\asame\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
