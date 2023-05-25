@@ -2,7 +2,10 @@
 using HotelProject.EntityLayer.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System;
+using System.IO;
 using System.Reflection.Metadata;
+using System.Threading.Tasks;
 
 namespace HotelProject.WebApi.Controllers
 {
@@ -48,5 +51,15 @@ namespace HotelProject.WebApi.Controllers
             _roomService.TDelete(room);
             return Ok();
         }
+
+		[HttpPost("imageupload")]
+		public async Task<IActionResult> UploadImage([FromForm] IFormFile file)
+		{
+			var filename = Guid.NewGuid() + Path.GetExtension(file.FileName);
+			var path = Path.Combine(Directory.GetCurrentDirectory(), "images/" + filename);
+			var stream = new FileStream(path, FileMode.Create);
+			await file.CopyToAsync(stream);
+			return Created("",file);
+		}
     }
 }
